@@ -14,8 +14,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mensaje .= "Correo Electrónico: $correo\n";
     
     mail($destinatario, $asunto, $mensaje);
-    
-    // Redirige a una página de confirmación o muestra un mensaje
-    header("Location: confirmacion.html");
 }
 ?>
