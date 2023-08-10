@@ -1,7 +1,51 @@
  @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@100&family=Ubuntu&display=swap'); 
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Encabezado */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #FF5733; /* Cambia a tu color de resaltado */
+}
 
 
- header {
+/* header {
     background-color: #EFEAD8;
     padding: 20px 0;
     gap: 128px;
@@ -10,7 +54,7 @@
     justify-content: space-around;
     align-items: center;
     z-index: 10;
-}
+}*/
 
 .caja-encabezado{
     width: 940px;
@@ -18,7 +62,7 @@
     margin: 0 auto;
 }
 
-nav{
+/*nav{
     background: #EFEAD8;
     height: 100px;
     text-align: right;
@@ -41,13 +85,13 @@ nav a{
 nav li:hover{
     color: #c78c19;
     text-decoration: underline;
-}
-body{
+}*/
+/*body{
     background-color: #EFEAD8;
     font-family: 'Oswald', sans-serif;
 }
-
-.foto-durvin{
+*/
+./*foto-durvin{
     width: 12em;
     height: 12em;
     border-radius: 6px;
@@ -62,9 +106,55 @@ body{
 .inicio p, h3{
     margin: 0 0 2em;
     text-align: center;
+}*/
+
+/* Estilos para la sección Sobre Mí */
+.about {
+    background-color: #f4f4f4;
+    padding: 80px 0;
+    text-align: center;
 }
 
-.proyecto{
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.about-image img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.image-caption {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.about-text {
+    flex: 1;
+    text-align: left;
+}
+
+.about-text h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+/*.proyecto{
     background: #F7F5EB;
     height: 100%;
     font-family: 'Oswald', sans-serif;
@@ -85,7 +175,68 @@ body{
 
 form{
     margin: 40px 0;
+}*/
+/* Estilos para la sección Proyectos */
+.projects {
+    background-color: #fff;
+    padding: 80px 0;
+    text-align: center;
 }
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.project {
+    flex: 1;
+    text-align: left;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.project p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.project-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF5733; /* Cambia a tu color preferido */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.project-link:hover {
+    background-color: #D14529; /* Cambia a un tono más oscuro o más claro */
+}
+
 .contacto{
     display: flex;
     flex-direction: column;
@@ -128,23 +279,107 @@ form{
     font-family: 'Oswald', sans-serif;
 }
 
-.habilidades{
+/*.habilidades{
     text-align: center;
     background: #F7F5EB;
     height: 100%;
     font-family: 'Oswald', sans-serif;
-}
+}*/
 
-
-footer{
-    margin: 30px 0 0 0;
+/* Estilos para la sección Habilidades */
+/* Estilos para la sección Habilidades */
+.skills {
+    background-color: #f4f4f4;
+    padding: 80px 0;
     text-align: center;
-    width: 100%;
-    height: 100px;
-    background: #EFEAD8;
-    font-family: 'Oswald', sans-serif;
 }
-.imagenes-habilidades{
+
+.skill-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.skill {
+    flex: 1;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.skill img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+}
+
+.skill p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Animación al pasar el cursor sobre las habilidades */
+.skill:hover {
+    transform: scale(1.1);
+}
+
+.skill img:hover {
+    transform: rotate(15deg);
+}
+
+
+/* Estilos para el pie de página */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Estilos para la sección de Contacto */
+.contact {
+    background-color: #f4f4f4;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form button {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #FF5733; /* Cambia a tu color preferido */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/*.imagenes-habilidades{
     display: inline-flex;
     align-items: center;
     width: 7em;
@@ -152,4 +387,4 @@ footer{
     padding: 5px;
     margin: 0px 10px 15px 30px;
     
-}
+}*/
