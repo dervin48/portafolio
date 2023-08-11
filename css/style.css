@@ -373,11 +373,11 @@ form{
     cursor: pointer;
 }
 
-.contact-form p {
-    margin-top: 20px;
+
+.footer p {
+    margin: 0;
     font-size: 14px;
 }
-
 
 /*.imagenes-habilidades{
     display: inline-flex;

@@ -53,13 +53,13 @@
             <img src="img/barberia.png" alt="Proyecto Barbería">
             <h3>Barbería HairStyle</h3>
             <p>Un sitio web moderno para una barbería que muestra servicios, horarios y detalles de contacto.</p>
-            <a href="link-a-tu-proyecto-barberia" class="project-link">Ver Proyecto</a>
+            <a href="proyectos/barberia/index.html" class="project-link">Ver Proyecto</a>
         </div>
         <div class="project">
             <img src="img/encriptador.png" alt="Ecriptador">
             <h3>Encriptador</h3>
             <p>Encriptador de Texto </p>
-            <a href="link-a-tu-juego-pokemon" class="project-link">Ver Proyecto</a>
+            <a href="proyectos/encriptador/index.html" class="project-link">Ver Proyecto</a>
         </div>
     </div>
 </section>
@@ -147,35 +147,10 @@
                 <button type="submit" onclick="mostrarPopupExito()">Enviar</button>
             </form>
             <p>Mi correo: dervin48@gmail.com</p>
-            <p>Mi teléfono: +50230249071</p>
+            <!-- <p>Mi teléfono: +50230249071</p> -->
         </div>
     </section>
-   <script src="js/sweetalert2.all.min.js"></script>
-<script>
-    // Función para mostrar un popup de éxito
-    function mostrarPopupExito() {
-        Swal.fire({
-            icon: 'success',
-            title: 'Mensaje enviado exitosamente',
-            text: 'Gracias por contactarnos.',
-            confirmButtonText: 'Aceptar'
-        });
-    }
 
-    // Manejar el envío del formulario
-    function enviarFormulario() {
-        // Realizar aquí cualquier validación adicional que necesites
-        
-        // Enviar el formulario usando AJAX
-        var form = document.getElementById("formulario");
-        var formData = new FormData(form);
-        
-        // Aquí puedes usar Fetch API o XMLHttpRequest para enviar los datos al servidor
-        
-        // Mostrar la notificación de envío exitoso
-        mostrarPopupExito();
-    }
-</script>
 
 
 
