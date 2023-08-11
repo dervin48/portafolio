@@ -14,6 +14,7 @@ body {
     text-align: center;
 }
 
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -43,72 +44,21 @@ body {
 .nav-links li a:hover {
     color: #FF5733; /* Cambia a tu color de resaltado */
 }
-
-
-/* header {
-    background-color: #EFEAD8;
-    padding: 20px 0;
-    gap: 128px;
-    width: 100vw;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    z-index: 10;
-}*/
-
-.caja-encabezado{
-    width: 940px;
-    position: relative;
-    margin: 0 auto;
-}
-
-/*nav{
-    background: #EFEAD8;
-    height: 100px;
-    text-align: right;
-    font-family: 'Oswald', sans-serif;
-    right: 0;
-}
-
-nav li{
-    display: inline;
-    margin: 0 0 10px 15px;
-    font-size: 30px;
-
-}
-nav a{
-    text-transform: uppercase;
-    color: #000000;
-    font-weight: bold;
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
     text-decoration: none;
-}
-nav li:hover{
-    color: #c78c19;
-    text-decoration: underline;
-}*/
-/*body{
-    background-color: #EFEAD8;
-    font-family: 'Oswald', sans-serif;
-}
-*/
-./*foto-durvin{
-    width: 12em;
-    height: 12em;
-    border-radius: 6px;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
-.inicio{
-    background: #F7F5EB;
-    height: 100%;
-    font-family: 'Oswald', sans-serif;
+.download-button:hover {
+    background-color: #2980b9;
 }
 
-.inicio p, h3{
-    margin: 0 0 2em;
-    text-align: center;
-}*/
 
-/* Estilos para la sección Sobre Mí */
 .about {
     background-color: #f4f4f4;
     padding: 80px 0;
@@ -123,6 +73,7 @@ nav li:hover{
     margin: 0 auto;
     gap: 40px;
 }
+
 
 .about-image img {
     border-radius: 50%;
@@ -154,29 +105,6 @@ nav li:hover{
 }
 
 
-/*.proyecto{
-    background: #F7F5EB;
-    height: 100%;
-    font-family: 'Oswald', sans-serif;
-}
-.imagenes-proyectos{
-    display: inline-flex;
-    text-align: center;
-    align-items: center;
-    width: 8rem;
-    height: 8rem;
-}
-
-
-.imagenes-proyectos:hover{
-    background: darkorange;
-    transform: scale(1.2);
-}
-
-form{
-    margin: 40px 0;
-}*/
-/* Estilos para la sección Proyectos */
 .projects {
     background-color: #fff;
     padding: 80px 0;
@@ -269,25 +197,9 @@ form{
 
 
 .cv{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 40px 0;
-    background: #F7F5EB;
-    height: 100%;
-    color: black;
-    font-family: 'Oswald', sans-serif;
+    background-color: #f4f4f4;
 }
 
-/*.habilidades{
-    text-align: center;
-    background: #F7F5EB;
-    height: 100%;
-    font-family: 'Oswald', sans-serif;
-}*/
-
-/* Estilos para la sección Habilidades */
-/* Estilos para la sección Habilidades */
 .skills {
     background-color: #f4f4f4;
     padding: 80px 0;
@@ -372,6 +284,7 @@ form{
     border: none;
     cursor: pointer;
 }
+
 
 
 .footer p {
