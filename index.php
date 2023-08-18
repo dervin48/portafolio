@@ -48,7 +48,7 @@
             <img src="img/barberia.png" alt="Proyecto Barbería">
             <h3>Barbería HairStyle</h3>
             <p>Un sitio web moderno para una barbería que muestra servicios, horarios y detalles de contacto.</p>
-            <a href="proyectos/barberia/index.php" class="project-link">Ver Proyecto</a>
+            <a href="proyectos/barberia2/index.php" class="project-link">Ver Proyecto</a>
         </div>
         <div class="project">
             <img src="img/encriptador.png" alt="Ecriptador">
@@ -60,7 +60,7 @@
             <img src="img/mokepon.png" alt="Mokepon">
             <h3>Mokepon</h3>
             <p>Juego</p>
-            <a href="proyectos/mokepon/public/index.html" class="project-link">Ver Proyecto</a>
+            <a href="proyectos/mokepon2/public/index.html" class="project-link">Ver Proyecto</a>
         </div>
     </div>
 </section>
