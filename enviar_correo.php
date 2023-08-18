@@ -1,19 +1,20 @@
 <?php
+if (isset($_POST['submit'])) {
+    $nombre = $_POST['nombre'];
+    $asunto = $_POST['asunto'];
+    $correo = $_POST['correo'];
+    $mensaje = $_POST['mensaje'];
 
-    $destinatario ="dervin48@gmail.com";
+    $destino = 'dervin48@gmail.com'; // Cambia esto por tu dirección de correo de Gmail
+    $asuntoCorreo = 'Nuevo mensaje de contacto: ' . $asunto;
+    $mensajeCorreo = "Nombre: $nombre\nCorreo: $correo\n\nMensaje:\n$mensaje";
 
-    $nombre = $_POST["nombre"];
-    $apellido = $_POST["apellido"];
-    $empresa = $_POST["empresa"];
-    $telefono = $_POST["telefono"];
-    $correo = $_POST["correo"];
+    $headers = "From: $correo\r\n";
 
+    // Envía el correo
+    mail($destino, $asuntoCorreo, $mensajeCorreo, $headers);
 
-    $header="Enviado desde mi portafolio";
-    $mensajeCompleto = $correo . "\n Atentamente: " . $nombre . $apellido. $empresa . $telefono;
-
-    mail($destinario, $correo, $mensajeCompleto, $header);
-    echo"<script>alert('correo enviado exitoasamente')</script>";
-    echo "<script> setTimeout(\"location.href='index.html'\",1000)</script>";
-
+    // Redirecciona a una página de confirmación
+    header('Location: index.php');
+}
 ?>
