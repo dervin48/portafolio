@@ -4,36 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/3246014784.js" crossorigin="anonymous"></script>
     <style> @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Ubuntu:wght@300&display=swap');</style>
     <title>Dgodoydev</title>
-
-    <title>Portafolio Durvin Gooy</title>
+    <title>Portafolio Durvin Godoy</title>
 
 </head>
 <body>
     <header class="header">
         <nav class="navbar">
-            <div class="logo">Mi portafolio</div>
+            <div class="image-containerlogo">
+            <img src="img/logoi.png" alt="dgodoydev" class="logo-img" >
+            </div>
             <ul class="nav-links">
                 <li><a href="#sobre-mi">Sobre Mí</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#formulario">Contacto</a></li>
             </ul>
         </nav>
     </header>
+
+<!-- Division de Sobre MI  -->
+
     <section id="sobre-mi" class="about">
     <div class="about-container">
         <div class="about-image">
             <img src="img/durvin.jpg" alt="Durvin">
             <div class="image-caption">Developer Junior</div>
+            <section class="buttons-redes-sociales">
+              <a href="https://www.facebook.com/derder48/" target="blank"> <i class="fa-brands fa-facebook"></i></a>
+              <a href="https://github.com/dervin48" target="blank"> <i class="fa-brands fa-github"></i>
+              <a href="https://www.linkedin.com/in/durvin-godoy-garza-36363737/" target="blank"> <i class="fa-brands fa-linkedin"></i>
+            </section>
              <a href="durvin_godoy.pdf" class="download-button" download>Mi Currículum</a>
         </div>
+
 
 
         <div class="about-text">
@@ -42,12 +54,16 @@
         </div>
     </div>
 
+
+<!-- Division de los Proyectos  -->
+
     <section id="proyectos" class="projects">
+               <h2>Proyectos</h2>
     <div class="project-container">
         <div class="project">
             <img src="img/barberia.png" alt="Proyecto Barbería">
             <h3>Barbería HairStyle</h3>
-            <p>Un sitio web moderno para una barbería que muestra servicios, horarios y detalles de contacto.</p>
+            <p>Un sitio web.</p>
             <a href="proyectos/barberia2/index.php" class="project-link">Ver Proyecto</a>
         </div>
         <div class="project">
@@ -59,79 +75,104 @@
         <div class="project">
             <img src="img/mokepon.png" alt="Mokepon">
             <h3>Mokepon</h3>
-            <p>Juego</p>
+            <p>Juego, JavaScript, html, css</p>
             <a href="proyectos/mokepon2/public/index.html" class="project-link">Ver Proyecto</a>
+        </div>
+        <div class="project">
+            <img src="img/freelancer.png" alt="Freelancer">
+            <h3>Freelancer</h3>
+            <p>Pagina Web, html, css</p>
+            <a href="proyectos/freenlacer/index.html" class="project-link">Ver Proyecto</a>
         </div>
     </div>
 </section>
 
 </section>
 
-
+<!-- Division del las Habilidades -->
 
 <section id="habilidades" class="skills">
     <h2>Habilidades</h2>
     <div class="skill-container">
         <div class="skill">
-            <img src="img/java.png" alt="Java">
+            <img width="500" height="500" src="https://img.icons8.com/ios/500/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1"/>
             <p>Java</p>
         </div>
         <div class="skill">
-            <img src="img/python.png" alt="Python">
+            <img width="480" height="480" src="https://img.icons8.com/color/480/python--v1.png" alt="python--v1"/>
             <p>Python</p>
         </div>
         <div class="skill">
-            <img src="img/django.png" alt="Django">
+            <img width="480" height="480" src="https://img.icons8.com/color/480/django.png" alt="django"/>
             <p>Django</p>
         </div>
         <div class="skill">
-            <img src="img/mysql.png" alt="MySQL">
+            <img width="500" height="500" src="https://img.icons8.com/ios-filled/500/mysql-logo.png" alt="mysql-logo"/>
             <p>MySQL</p>
         </div>
         <div class="skill">
-            <img src="img/php.png" alt="PHP">
+            <img width="480" height="480" src="https://img.icons8.com/officel/480/php-logo.png" alt="php-logo"/>
             <p>PHP</p>
         </div>
         <div class="skill">
-            <img src="img/javascript.png" alt="JavaScript">
+            <img width="240" height="240" src="https://img.icons8.com/fluency/240/javascript.png" alt="javascript"/>
             <p>JavaScript</p>
         </div>
         <div class="skill">
-            <img src="img/html.png" alt="HTML">
+            <img width="480" height="480" src="https://img.icons8.com/color/480/html-5--v1.png" alt="html-5--v1"/>
             <p>HTML</p>
         </div>
         <div class="skill">
-            <img src="img/css.png" alt="CSS">
+            <img width="480" height="480" src="https://img.icons8.com/color/480/css3.png" alt="css3"/>
             <p>CSS</p>
         </div>
     </div>
-</section>
-   <section id="contacto" class="contact">
-        <div class="contact-form">
-            <form action="enviar_correo.php" method="POST" id="formulario" onsubmit="enviarFormulario(); return false;">
-            <h2>Contacto</h2>
-            <label>Nombre</label>
-            <input class="input-patron" type="text">
-            <label>Asunto</label>
-            <input class="input-patron" type="text">
-            <label>Correo Electrónico</label>
-            <input class="input-patron" type="email">
-            <label>Mensaje</label>
-            <textarea class="input-patron" rows="6" ></textarea>
-            <input type="submit" value="Enviar formulario" class="enviar">
-             <p>Mi correo: dervin48@gmail.com</p>
-        </section>
 
+<!-- Division para lograr contactarme -->
+
+<form class="formulario" id="formulario" action="https://formsubmit.co/ef0647664f5cc6c2f46c066c3a64243b" method="POST">
+<fieldset>
+      <legend class="contacto">Contacto</legend>
+      <div class="contenedor-campos">
+        <div class="campo">
+      <label>Nombre</label>
+      <input class="input-patron" type="text" name="nombre">
+        </div>
+        <div class="campo">
+      <label>Asunto</label>
+      <input class="input-patron" type="text" name="asunto">
+        </div>
+        <div class="campo">
+      <label>Correo Electrónico</label>
+      <input class="input-patron" type="email" name="correo">
+        </div>
+        <div class="campo">
+      <label>Mensaje</label>
+      <textarea class="input-patron" rows="6" name="mensaje"></textarea>
+        </div>
+      <input type="submit" value="Enviar" name="submit" class="enviar boton w-100" id="enviarFormulario">
+      <input type="hidden" name="_next" value="http://www.dgodoydev.com">
+      <input type="hidden" name="_captcha" value="false">
+      <p class="correo-propio" >Mi correo: dervin48@gmail.com</p>
+    </fieldset>
     </form>
+    <div id="mensajeResultado"></div>
+  </div>
+    <script>
+      document.getElementById("enviarFormulario").addEventListener("click", function() {
+        Swal.fire({
+          icon: "success",
+          title: "Envío exitoso",
+          text: "Gracias por tu mensaje.",
+        });
+      });
+    </script>
 
-            <!-- <p>Mi teléfono: +50230249071</p> -->
 
-
-
+<!-- Pie de Pagina de la Pagina -->
 
 <footer class="footer">
     <p>&copy; 2023 | Desarrollado por Durvin Godoy</p>
 </footer>
-
 </body>
 </html>
