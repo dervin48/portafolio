@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fe:Invoice xmlns:fe="http://www.dian.gov.co/contratos/facturaelectronica/v1">
+	<Product>
+		<Description>COMBO DE CAMARA 3</Description>
+	</Product>
+	<Product>
+		<Description>COMBO DE CAMARAS 2</Description>
+	</Product>
+	<Product>
+		<Description>COMBO DE CAMARAS 1</Description>
+	</Product>
+</fe:Invoice>

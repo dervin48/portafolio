@@ -19,7 +19,7 @@
 <body>
     <header class="header">
         <nav class="navbar">
-            <div class="image-containerlogo">
+            <div class="image-container logo">
             <img src="img/logoi.png" alt="dgodoydev" class="logo-img" >
             </div>
             <ul class="nav-links">
@@ -82,7 +82,19 @@
             <img src="img/freelancer.png" alt="Freelancer">
             <h3>Freelancer</h3>
             <p>Pagina Web, html, css</p>
-            <a href="proyectos/freenlacer/index.html" class="project-link">Ver Proyecto</a>
+            <a href="proyectos/freenlacer/index.php" class="project-link">Ver Proyecto</a>
+        </div>
+        <div class="project">
+            <img src="img/page-rock.png" alt="Page-Rock">
+            <h3>Page-Rock</h3>
+            <p>Pagina Web, html, css, js, utilizando gulp</p>
+            <a href="https://keen-pegasus-a13f4d.netlify.app/" class="project-link">Ver Proyecto</a>
+        </div>
+        <div class="project">
+            <img src="img/rivera.png" alt="Venta de Accesorios">
+            <h3>Rivera-PC</h3>
+            <p>Pagina Web de un local Aministrador de inventario, html, css, js, php</p>
+            <a href="proyectos/php/index.php" class="project-link">Ver Proyecto</a>
         </div>
     </div>
 </section>
