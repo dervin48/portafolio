@@ -53,12 +53,12 @@
             <p>Hola, soy Durvin, un apasionado desarrollador junior de 29 años de edad originario de Guatemala. Me encanta transformar ideas en soluciones creativas a través del código. Siempre estoy emocionado por aprender y crecer en el mundo de la programación. Mi objetivo es contribuir a proyectos significativos y seguir evolucionando como profesional.</p>
         </div>
     </div>
-
+</section>
 
 <!-- Division de los Proyectos  -->
+<h2>Proyectos</h2>  
+    <section id="proyectos" class="projects">     
 
-    <section id="proyectos" class="projects">
-               <h2>Proyectos</h2>
     <div class="project-container">
         <div class="project">
             <img src="img/barberia.png" alt="Proyecto Barbería">
