@@ -24,12 +24,29 @@ body {
 
 /* Encabezado */
 .header {
-    display: flex;
+    /* display: flex;
     background-color: #333;
     color: #fff;
     padding: 0.5em 0;
+    text-align: center; */
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ajusta según sea necesario para que esté por encima de otros elementos */
+    background-color: #333;
+    color: #fff;
+    padding: 0.3em 0;
     text-align: center;
+    
+    
 }
+
+#sobre-mi {
+    margin-top: 100px; 
+}
+
+
 
 .navbar {
     display: flex;
@@ -41,7 +58,7 @@ body {
 }
 
 .nav-links a{
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 
@@ -53,7 +70,7 @@ body {
 }
 
 .logo-img {
-    width: 200px; /* Ajusta el ancho de la imagen según tus necesidades */
+    width: 150px; /* Ajusta el ancho de la imagen según tus necesidades */
     height: auto; /* Esto mantiene la proporción de la imagen */
 }
 
@@ -192,7 +209,7 @@ img {
 
 .about {
     background-color: #f4f4f4;
-    padding: 80px 2rem;
+    padding: 30px 1rem;
     text-align: center;
     
 }

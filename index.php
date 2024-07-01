@@ -14,7 +14,6 @@
     <style> @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Ubuntu:wght@300&display=swap');</style>
     <title>Dgodoydev</title>
     <title>Portafolio Durvin Godoy</title>
-
 </head>
 <body>
     <header class="header">
@@ -27,6 +26,7 @@
                 <li><a href="#proyectos">Proyectos</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#formulario">Contacto</a></li>
+                <li><a href="proyectos/certificaciones/index.html">Certificaciones</a></li>
             </ul>
         </nav>
     </header>
@@ -36,8 +36,8 @@
     <section id="sobre-mi" class="about">
     <div class="about-container">
         <div class="about-image">
-            <img src="img/durvin.jpg" alt="Durvin">
-            <div class="image-caption">Developer Junior</div>
+            <img src="img/durvin.webp" alt="Durvin">
+            <div class="image-caption">Developer</div>
             <section class="buttons-redes-sociales">
               <a href="https://www.facebook.com/derder48/" target="blank"> <i class="fa-brands fa-facebook"></i></a>
               <a href="https://github.com/dervin48" target="blank"> <i class="fa-brands fa-github"></i>
@@ -50,7 +50,7 @@
 
         <div class="about-text">
             <h2>Sobre Mí</h2>
-            <p>Hola, soy Durvin, un apasionado desarrollador junior de 29 años de edad originario de Guatemala. Me encanta transformar ideas en soluciones creativas a través del código. Siempre estoy emocionado por aprender y crecer en el mundo de la programación. Mi objetivo es contribuir a proyectos significativos y seguir evolucionando como profesional.</p>
+            <p>Hola, soy Durvin, un apasionado desarrollador junior de 30 años de edad originario de Guatemala. Me encanta transformar ideas en soluciones creativas a través del código. Siempre estoy emocionado por aprender y crecer en el mundo de la programación. Mi objetivo es contribuir a proyectos significativos y seguir evolucionando como profesional.</p>
         </div>
     </div>
 </section>
