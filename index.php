@@ -21,6 +21,9 @@
             <div class="image-container logo">
             <img src="img/logoi.png" alt="dgodoydev" class="logo-img" >
             </div>
+            <button class="menu-toggle" aria-label="Toggle Menu">
+    <i class="fas fa-bars"></i>
+  </button>
             <ul class="nav-links">
                 <li><a href="#sobre-mi">Sobre Mí</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
@@ -50,7 +53,7 @@
 
         <div class="about-text">
             <h2>Sobre Mí</h2>
-            <p>Hola, soy Durvin, un apasionado desarrollador junior de 30 años de edad originario de Guatemala. Me encanta transformar ideas en soluciones creativas a través del código. Siempre estoy emocionado por aprender y crecer en el mundo de la programación. Mi objetivo es contribuir a proyectos significativos y seguir evolucionando como profesional.</p>
+            <p>Hola, soy Durvin, un apasionado desarrollador de 31 años de edad originario de Guatemala. Me encanta transformar ideas en soluciones creativas a través del código. Siempre estoy emocionado por aprender y crecer en el mundo de la programación. Mi objetivo es contribuir a proyectos significativos y seguir evolucionando como profesional.</p>
         </div>
     </div>
 </section>
@@ -182,9 +185,11 @@
 
 
 <!-- Pie de Pagina de la Pagina -->
-
+0
 <footer class="footer">
     <p>&copy; 2023 | Desarrollado por Durvin Godoy</p>
 </footer>
+<script src="js/app.js"></script>
+</script>
 </body>
 </html>

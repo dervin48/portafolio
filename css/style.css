@@ -14,7 +14,7 @@ html{
     scroll-snap-type:y mandatory;
 }
 
-body {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -22,14 +22,8 @@ body {
     
 }
 
-/* Encabezado */
-.header {
-    /* display: flex;
-    background-color: #333;
-    color: #fff;
-    padding: 0.5em 0;
-    text-align: center; */
 
+.header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -39,27 +33,88 @@ body {
     padding: 0.3em 0;
     text-align: center;
     
-    
 }
 
 #sobre-mi {
     margin-top: 100px; 
 }
 
-
-
 .navbar {
+    position: relative;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     max-width: 1200em;
     margin: 0 auto;
     padding: 0 5em;
 }
 
-.nav-links a{
-    font-size: 1.8rem;
+.nav-links{
+    display: flex;
+    align-items: flex-end;
+    list-style: none;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    list-style: none;
+    gap: 2rem;
 }
+.nav-links  ul{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    transition: color 0.3s;
+}
+
+.nav-links li {
+    float: left;
+}
+.nav-links li a {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #fff;
+    float: left;
+}
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      background-color: #333;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      width: 200px;
+      padding: 10px;
+      border-radius: 8px;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .menu-toggle {
+      display: block;
+    }
+  }
 
 
 .image-container{
@@ -75,45 +130,9 @@ body {
 }
 
 
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 2rem;
-    padding-left: 2rem;
-}
-
-.nav-links li a {
-    display: flex;
-    text-decoration: none;
-    color: #fff;
-    transition: color 0.3s;
-}
 .logo {
     font-size: 24em;
     font-weight: bold;
-}
-
-@media only screen and (max-width: 768px){
-    .nav-links{
-        display: flex;
-        flex-direction: column;
-        padding-left: 2rem;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-    }
-
-}
-
-@media only screen and (max-width: 768px){
-    .about,
-    .header{
-        max-width: 100%;
-        margin: 0 auto;
-    }
-}
-
-*, *:before *:after{
-    box-sizing: inherit;
 }
 
 h2{
@@ -122,18 +141,10 @@ h2{
     padding-top: 2rem;
 }
   
-
 img {
     width: 10em; /* Establece el ancho deseado */
     height: 5em; /* Permite que la altura se ajuste automáticamente */
     border-radius: 10px; /* Opcional: redondea las esquinas */
-}
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: content-box;
 }
 
 .buttons-redes-sociales {
