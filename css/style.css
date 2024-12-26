@@ -19,7 +19,6 @@ html{
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    
 }
 
 
@@ -34,8 +33,6 @@ html{
     text-align: center;
     
 }
-
-
 .navbar {
     position: relative;
     display: flex;
@@ -88,9 +85,12 @@ html{
     font-size: 24px;
     cursor: pointer;
   }
+  body{
+    background-color: #f4f4f4;
+  }
   
   /* Responsive Styles */
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     .nav-links {
       display: none;
       flex-direction: column;
@@ -137,6 +137,7 @@ h2{
     text-align: center;
     font-size: 5rem;
     padding-top: 2rem;
+    padding-bottom: 2rem;
 }
   
 img {
@@ -233,8 +234,27 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 1rem;
+    
 }
 
+@media (min-width: 600px) {
+    .about-container {
+        margin-left: 1rem;
+        display: flex;
+        flex-direction: inherit;
+        gap: 20px; /* Espaciado entre los elementos */
+        text-align: center;
+    }
+
+    .about-text p {
+        font-size: 16px; /* Tamaño de fuente ajustado para pantallas pequeñas */
+        line-height: 1.5; /* Mejor espacio entre líneas */
+        color: #333;
+        text-align: justify; /* Texto alineado para mejorar la legibilidad */
+        margin: 0 10px; /* Márgenes laterales para evitar que el texto toque los bordes */
+    }
+}
 
 .about-image img {
     border-radius: 50%;
@@ -251,6 +271,7 @@ img {
 }
 
 .about-text {
+    background-color: #f4f4f4;
     flex: 1;
     text-align: center;
     padding-bottom: 2rem;
@@ -277,10 +298,9 @@ img {
 
 .projects {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background-color: #fff;
-    padding-top: 2rem;
-    padding: 80px 0;
     text-align: center;
 }
 

@@ -35,16 +35,15 @@
     </header>
 
 <!-- Division de Sobre MI  -->
-
-    <section id="sobre-mi" class="about">
+<section id="sobre-mi" class="about">
     <div class="about-container">
         <div class="about-image">
             <img src="img/durvin.webp" alt="Durvin">
             <div class="image-caption">Developer</div>
             <section class="buttons-redes-sociales">
-              <a href="https://www.facebook.com/derder48/" target="blank"> <i class="fa-brands fa-facebook"></i></a>
-              <a href="https://github.com/dervin48" target="blank"> <i class="fa-brands fa-github"></i>
-              <a href="https://www.linkedin.com/in/durvin-godoy-garza-36363737/" target="blank"> <i class="fa-brands fa-linkedin"></i>
+              <a href="https://www.facebook.com/derder48/" target="blank"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://github.com/dervin48" target="blank"><i class="fa-brands fa-github"></i>
+              <a href="https://www.linkedin.com/in/durvin-godoy-garza-36363737/" target="blank"><i class="fa-brands fa-linkedin"></i>
             </section>
              <a href="durvin_godoy.pdf" class="download-button" download>Mi Currículum</a>
         </div>
@@ -56,9 +55,9 @@
 </section>
 
 <!-- Division de los Proyectos  -->
-<h2>Proyectos</h2>  
-    <section id="proyectos" class="projects">     
 
+    <section id="proyectos" class="projects">     
+    <h2>Proyectos</h2>  
     <div class="project-container">
         <div class="project">
             <img src="img/barberia.png" alt="Proyecto Barbería">
