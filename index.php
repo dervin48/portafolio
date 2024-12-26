@@ -48,9 +48,6 @@
             </section>
              <a href="durvin_godoy.pdf" class="download-button" download>Mi Currículum</a>
         </div>
-
-
-
         <div class="about-text">
             <h2>Sobre Mí</h2>
             <p>Hola, soy Durvin, un apasionado desarrollador de 31 años de edad originario de Guatemala. Me encanta transformar ideas en soluciones creativas a través del código. Siempre estoy emocionado por aprender y crecer en el mundo de la programación. Mi objetivo es contribuir a proyectos significativos y seguir evolucionando como profesional.</p>
@@ -185,7 +182,6 @@
 
 
 <!-- Pie de Pagina de la Pagina -->
-0
 <footer class="footer">
     <p>&copy; 2023 | Desarrollado por Durvin Godoy</p>
 </footer>
