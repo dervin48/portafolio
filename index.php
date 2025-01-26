@@ -147,19 +147,19 @@
       <div class="contenedor-campos">
         <div class="campo">
       <label>Nombre</label>
-      <input class="input-patron" type="text" name="nombre">
+      <input class="input-patron" placeholder="Ingrese su nombre" type="text" name="nombre">
         </div>
         <div class="campo">
       <label>Asunto</label>
-      <input class="input-patron" type="text" name="asunto">
+      <input class="input-patron" placeholder="Ingrese Asunto" type="text" name="asunto">
         </div>
         <div class="campo">
       <label>Correo Electrónico</label>
-      <input class="input-patron" type="email" name="correo">
+      <input class="input-patron" placeholder="Ingrese su Correo Electronico" type="email" name="correo">
         </div>
         <div class="campo">
       <label>Mensaje</label>
-      <textarea class="input-patron" rows="6" name="mensaje"></textarea>
+      <textarea class="input-patron" placeholder="Ingrese su Mensaje" rows="6" name="mensaje"></textarea>
         </div>
       <input type="submit" value="Enviar" name="submit" class="enviar boton w-100" id="enviarFormulario">
       <input type="hidden" name="_next" value="http://www.dgodoydev.com">

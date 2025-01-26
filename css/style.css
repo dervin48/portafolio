@@ -43,6 +43,8 @@ html{
     padding: 0 5em;
 }
 
+
+
 .nav-links{
     display: flex;
     align-items: flex-end;
@@ -88,6 +90,8 @@ html{
   body{
     background-color: #f4f4f4;
   }
+
+
   
   /* Responsive Styles */
   @media (max-width: 900px) {
@@ -112,7 +116,13 @@ html{
       display: block;
     }
   }
+  @media (min-width: 900px) {
+    .nav-links li a{
+        font-size: 200%;
+        font-weight: bold;
+    }
 
+}
 
 
 .image-container{
@@ -150,6 +160,7 @@ img {
     margin-top: 100px; 
     margin-right: 10px;
 }
+
 
 .buttons-redes-sociales {
   min-width: 20em;
@@ -256,6 +267,8 @@ img {
     }
 }
 
+
+
 .about-image img {
     border-radius: 50%;
     width: 200px;
@@ -296,12 +309,22 @@ img {
     text-align: justify;
 }
 
+@media (min-width: 900px) {
+    .about-text p{
+        font-size: x-large;
+        font-weight: bold;
+        line-height: 1.5;
+
+    }
+
+}
 .projects {
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #fff;
     text-align: center;
+    padding-bottom: 3rem;
 }
 
 @media only screen and (max-width: 768px){
@@ -441,8 +464,9 @@ img {
 }
 
 .skill p {
-    font-size: 18px;
+    font-size: 20px;
     color: #333;
+    font-weight: bold;
 }
 
 /* Animación al pasar el cursor sobre las habilidades */
@@ -508,10 +532,15 @@ img {
 }
 
 .input-patron{
-    width: 80%;
+    width: 90%;
     border: none;
     padding: 1rem;
     border-radius: .5rem;
+}
+.input-patron::placeholder {
+    font-size: 1.5rem; 
+    text-transform: uppercase; 
+    color: #999; 
 }
 .enviar .boton{
     max-width: 100%;
